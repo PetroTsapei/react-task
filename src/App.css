@@ -1,0 +1,38 @@
+:root {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 15vw;
+  font-family: "ProximaNova", sans-serif;
+  line-height: 0.93;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #274fbd, #01d8fd, #14dfea, #3fc12a, #f9ac07, #5406d9, #e912a3, #7a3bca, #f9ac07, #7a3bca);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-overflow 20s linear infinite;
+  user-select: none;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+li {
+  text-transform: capitalize;
+  width: 33.333%;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.loading {
+  opacity: 0.5;
+}
